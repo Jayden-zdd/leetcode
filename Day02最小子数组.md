@@ -1,10 +1,10 @@
 # 代码随想录算法第二天|leetcode209最小连续子数组
 ## 学习的文章链接和视频链接
-题目链接：https://leetcode.cn/problems/minimum-size-subarray-sum/
-文章讲解：https://programmercarl.com/0209.%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.html
-视频讲解：https://www.bilibili.com/video/BV1tZ4y1q7XE
+题目链接：https://leetcode.cn/problems/minimum-size-subarray-sum/  
+文章讲解：https://programmercarl.com/0209.%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.html  
+视频讲解：https://www.bilibili.com/video/BV1tZ4y1q7XE  
 ## 看到题目的第一想法
-todo
+看错题目，我以为是最短数组，结果要求是连续的
 ## 实现过程中遇到哪些困难 
 todo
 ## 看完代码随想录之后的想法 

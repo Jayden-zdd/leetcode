@@ -1,8 +1,8 @@
 # 代码随想录算法第一天|leetcode704二分查找
 ## 学习的文章链接和视频链接
-基础理论：https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html
-题目链接：https://leetcode.cn/problems/binary-search/
-文章讲解：https://programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html
+基础理论：https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html  
+题目链接：https://leetcode.cn/problems/binary-search/  
+文章讲解：https://programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html  
 视频讲解：https://www.bilibili.com/video/BV1fA4y1o715
 ## 看到题目的第一想法
 1. for循环遍历输出下标，时间复杂度O(n);
