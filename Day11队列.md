@@ -26,7 +26,6 @@
 # 20 有效括号
 stack = []
         op_map = {'+': lambda a,b: a+b,'-':lambda a,b:a-b, '*':lambda a,b:a*b,'/':lambda a,b: int(a/b)}
-
         for token in tokens:
             if token in ['+','-','*','/']:
                 last = stack.pop()
