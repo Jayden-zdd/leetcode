@@ -6,7 +6,21 @@
 * 四舍五入round(4.4)，小数末尾为5的处理方法：当末尾的5的前一位为奇数：向绝对值更大的方向取整（5.5=>6）；当末尾的5的前一位为偶数：去尾取整（6.5=>6）
 * 向0取整int(4.4)、int(-0.9)=0
 ### string
-* split()默认为所有的空字符，包括空格、换行(\n)、制表符(\t)
+1. 初始化
+str = '' or str='hello'
+2. 增删改查
+* str3 = str1 + str2
+* 删除修改不支持
+* str[1] or str[1:4]
+3. 内置函数
+* 翻转字符转s[::-1] or ''.join(reversed(list))
+* string.count(str, beg=0, end=len(string))返回 str 在 string 里面出现的次数，如果 beg 或者 end 指定则返回指定范围内 str 出现的次数
+* string.endswith(obj, beg=0, end=len(string))返回True和False
+* string.find(str, beg=0, end=len(string))检测 str 是否包含在 string 中，如果 beg 和 end 指定范围，则检查是否包含在指定范围内，如果是返回开始的索引值，否则返回-1
+* string.index(str, beg=0, end=len(string))跟find()方法一样，只不过如果str不在 string中会报一个异常.
+* string.join(seq)以 string 作为分隔符，将 seq 中所有的元素(的字符串表示)合并为一个新的字符串
+* string.replace(str1, str2,  num=string.count(str1))把 string 中的 str1 替换成 str2,如果 num 指定，则替换不超过 num 次.
+* string.split(str="", num=string.count(str))以 str 为分隔符切片 string，如果 num 有指定值，则仅分隔 num+1 个子字符串，split()默认为所有的空字符，包括空格、换行(\n)、制表符(\t)
 ### tuple
 ## 可变数据类型
 ### list
@@ -24,6 +38,10 @@ a = []，b = [1,2,3]
 * a[start,stop,step]，step正数的时候[::2]start尽可能小，stop尽可能大;step负数的时候[::-2]，反过来start尽可能大，stop尽可能小
 * b = a[:]等价于浅copy
 5. 内置函数
+* 翻转字符串
+    * list[::-1] 生成新的list
+    * list.reverse() 原list直接更新
+    * reversed(list)只是个迭代器，需要写成list(reversed(list)),也是生成新的list
 * a.count(obj)统计某个元素在列表中出现的次数
 * a.extend(b)不等价于a+b，extend的返回还是a，a+b的返回是c
 * a.index(obj)从列表中找出某个值第一个匹配项的索引位置
