@@ -1,9 +1,9 @@
 # 代码随想录算法第22天|回溯算法
 ## 学习的文章链接和视频链接
-1、https://docs.qq.com/doc/DUEhsb0pUUm1WT2NP?nlc=1
-2、https://docs.qq.com/doc/DUExTYXVzU1BiU2Zl?nlc=1
-3、https://docs.qq.com/doc/DUElpbnNUR3hIbXlY?nlc=1
-4、https://docs.qq.com/doc/DUG1yVHdlWEdNYlhZ?nlc=1
+1、https://docs.qq.com/doc/DUEhsb0pUUm1WT2NP?nlc=1  
+2、https://docs.qq.com/doc/DUExTYXVzU1BiU2Zl?nlc=1  
+3、https://docs.qq.com/doc/DUElpbnNUR3hIbXlY?nlc=1  
+4、https://docs.qq.com/doc/DUG1yVHdlWEdNYlhZ?nlc=1  
 ## 看到题目的第一想法
 for循环遍历，但是几层for循环无法确定，所以不会
 ## 实现过程中遇到哪些困难 
