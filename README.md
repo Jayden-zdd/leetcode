@@ -65,7 +65,6 @@ tinydict = {'Name': 'Runoob', 'Age': 7, 'Class': 'First'}
 * dict.keys() 返回一个视图对象
 * dict.values() 返回一个视图对象
 * dict.items() 以列表返回一个视图对象
-
 ### Set
 1. 初始化
 a = set() or a = {'a','b',1,2} or a= set(("Google", "Runoob", "Taobao"))
@@ -79,6 +78,19 @@ a = set() or a = {'a','b',1,2} or a= set(("Google", "Runoob", "Taobao"))
 * 交集&
 * 并集|
 * 差集-
+# 数据类型转换
+| 源类型      | 构造目标类型          | 示例代码                                      |
+| ----------- | --------------------- | --------------------------------------------- |
+| str         | list/tuple/set        | `list(s), tuple(s), set(s)`                   |
+| list        | str                   | `"" .join(list)`                              |
+| tuple       | str                   | `"" .join(tuple)`                             |
+| list        | tuple/set             | `tuple(list), set(list)`                      |
+| tuple       | list/set              | `list(tuple), set(tuple)`                     |
+| list/tuple  | dict                  | `dict([('a', 1)])`                            |
+| dict        | str/json              | `str(d), json.dumps(d)`                       |
+| dict        | list/tuple/set（只键）   | `list(d), tuple(d), set(d)`                   |
+| dict        | list/tuple/set（键值对） | `list(d.items()), tuple(d.items()), set(d.items())` |
+| set         | list/tuple/str        | `list(set), tuple(set), "".join(set)`         |
 # 常用内置函数
 * abs() 绝对值, ord('a') 字母的ascii码值，chr(97) = 'a'，
 * divmod(7, 2) = (3, 1) 函数把除数和余数运算结果结合起来，返回一个包含商和余数的元组(a // b, a % b)
